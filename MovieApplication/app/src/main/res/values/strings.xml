@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieApplication</string>
+    <string name="title_activity_movie_details">MovieDetails</string>
+
+    <array name="sort_options">
+        <item> Popular </item>
+        <item> Top Rated </item>
+        <item> Favourites </item>
+    </array>
+
+
+    <array name="sort_values">
+        <item> popular </item>
+        <item> top_rated </item>
+        <item> favourite </item>
+    </array>
+
+</resources>
