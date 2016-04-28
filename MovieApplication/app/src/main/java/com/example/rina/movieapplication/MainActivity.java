@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements MovieInterface {
             detailFragment.setArguments(b);
 
             getFragmentManager().beginTransaction()
-                    .add(R.id.secFragment, detailFragment)
+                    .replace(R.id.secFragment, detailFragment)
                     .commit();
         }
         else {
